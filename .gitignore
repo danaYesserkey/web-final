@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.pytest_cache/
+.pyre/
+
+# Virtual environments
+venv/
+.venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# DRF Spectacular / OpenAPI
+schema.yml
+schema.yaml
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Celery
+celerybeat-schedule
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+
+# Environment files
+*.env
+.env
+.envrc
+
+# Backup files
+*.bak
+*.orig
+*.tmp
+
+#deploy
+deploy/biostatistics.conf
+
+#static files
+static/
